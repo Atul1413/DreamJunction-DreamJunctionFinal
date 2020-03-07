@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Dream Junction LLP</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @*@Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+                <a href="#">
+                    <img src="~/Images/logo.png" class=" navbar-brand img-responsive" alt="dream junction logo" />
+                </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("About Us", "About", "Home")</li>
+                    <li>@Html.ActionLink("Our Plans", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("How It's Work", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Investers", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Blog", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Login", "Login", "Account")</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid body-content">
+        @RenderBody()
+    </div>
+    <footer id="footer" class="container-fluid body-content">
+        <div class="footer-top">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 footer-info">
+                        <h4>About Dream Junction LLP</h4>
+                        <p>Dream Junction. digi LLP is an RBI Licensed money investment Platform in India. We are creating a conductive environment for investors only.</p>
+                    </div>
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><a href="#">Low risk alternate investments</a></li>
+                            <li><a href="#">Why Invest</a></li>
+                            <li><a href="#">Investors Eligibility</a></li>
+                            <li><a href="#">How to invest</a></li>
+                            <li><a href="#">Returns & Fees</a></li>
+                            <li><a href="#">Investors FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Legal Disclaimer</h4>
+                        <ul>
+                            <li><a href="#">Terms of use</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">RBI Disclaimer</a></li>
+                            <li><a href="#">Grievance Redressal</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h4>Contact Us</h4>
+                        <p>
+                            <strong>Address:</strong>  Office No.604/605,A Wing,6th Floor, <br>
+                            Disma Complex Plot No.246, Kalamboli,<br>
+                            Navi Mumbai, 410218 <br>
+                            <strong>Phone:</strong> 022-4979-2432<br>
+                            <strong>Email:</strong> support@dreamjunction.in<br>
+                        </p>
+                        <div class="social-links">
+                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    @*<div class="col-lg-3 col-md-6 footer-newsletter">
+                            <h4>Our Newsletter</h4>
+                            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+                            <form action="" method="post">
+                                <input type="email" name="email"><input type="submit" value="Subscribe">
+                            </form>
+                        </div>*@
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="copyright">
+                <p><strong>Dream Junction LLP &copy;</strong> @DateTime.Now.Year - All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer><!-- #footer -->
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
