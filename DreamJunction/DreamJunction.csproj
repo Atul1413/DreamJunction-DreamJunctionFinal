@@ -200,7 +200,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InvestorController.cs" />
     <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -210,6 +212,41 @@
   <ItemGroup>
     <Content Include="Content\animate\animate.css" />
     <Content Include="Content\animate\animate.min.css" />
+    <Content Include="Content\backend\css\bootstrap.min.css" />
+    <Content Include="Content\backend\css\default-css.css" />
+    <Content Include="Content\backend\css\font-awesome.min.css" />
+    <Content Include="Content\backend\css\metisMenu.css" />
+    <Content Include="Content\backend\css\owl.carousel.min.css" />
+    <Content Include="Content\backend\css\responsive.css" />
+    <Content Include="Content\backend\css\slicknav.min.css" />
+    <Content Include="Content\backend\css\styles.css" />
+    <Content Include="Content\backend\css\themify-icons.css" />
+    <Content Include="Content\backend\css\typography.css" />
+    <Content Include="Content\backend\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\backend\fonts\themify.svg" />
+    <Content Include="Content\bs-stepper.css" />
+    <Content Include="Content\ion.rangeSlider.css" />
+    <Content Include="Content\ion.rangeSlider.min.css" />
+    <Content Include="Content\noUiSlider\jquery.nouislider.css" />
+    <Content Include="Images\avatar.png" />
+    <Content Include="Scripts\bar-chart.js" />
+    <Content Include="Content\backend\js\bootstrap.min.js" />
+    <Content Include="Scripts\bs-stepper.min.js" />
+    <Content Include="Scripts\ion.rangeSlider.js" />
+    <Content Include="Scripts\ion.rangeSlider.min.js" />
+    <Content Include="Scripts\jquery.nouislider.js" />
+    <Content Include="Scripts\jquery.slicknav.min.js" />
+    <Content Include="Scripts\jquery.slimscroll.min.js" />
+    <Content Include="Scripts\line-chart.js" />
+    <Content Include="Content\backend\js\maps.js" />
+    <Content Include="Scripts\metisMenu.min.js" />
+    <Content Include="Scripts\owl.carousel.min.js" />
+    <Content Include="Scripts\pie-chart.js" />
+    <Content Include="Scripts\plugins.js" />
+    <Content Include="Scripts\popper.min.js" />
+    <Content Include="Content\backend\js\scripts.js" />
+    <Content Include="Content\backend\js\jquery-2.2.4.min.js" />
+    <Content Include="Content\backend\js\modernizr-2.8.3.min.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -281,6 +318,14 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="Content\backend\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\backend\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\backend\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\backend\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\backend\fonts\FontAwesome.otf" />
+    <Content Include="Content\backend\fonts\themify.eot" />
+    <Content Include="Content\backend\fonts\themify.ttf" />
+    <Content Include="Content\backend\fonts\themify.woff" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\contactform.js" />
     <Content Include="Scripts\counterup\counterup.min.js" />
@@ -315,6 +360,7 @@
     <Content Include="Scripts\owlcarousel\assets\owl.video.play.png" />
     <Content Include="Scripts\owlcarousel\owl.carousel.js" />
     <Content Include="Scripts\owlcarousel\owl.carousel.min.js" />
+    <Content Include="Scripts\scripts.js" />
     <Content Include="Scripts\waypoints.min.js" />
     <Content Include="Scripts\wow.js" />
     <Content Include="Scripts\wow.min.js" />
@@ -332,9 +378,16 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Investor\SignUp.cshtml" />
+    <Content Include="Views\Investor\SignIn.cshtml" />
+    <Content Include="Views\Admin\_LayoutBackEnd.cshtml" />
+    <Content Include="Views\Admin\Dashboard.cshtml" />
+    <Content Include="Views\Investor\BecomeInvestor.cshtml" />
+    <Content Include="Views\Investor\Dashboard.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\backend\images\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

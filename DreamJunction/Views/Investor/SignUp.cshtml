@@ -1,0 +1,69 @@
+﻿
+@{
+    ViewBag.Title = "SignUp";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<br />
+<br />
+<br />
+<br />
+<div class="inner-head">
+    <div class="page-header">
+        <header><h2>Become an Investor</h2></header>
+    </div>
+</div>
+<div class="container">
+    <form id="frminvestorjoining">
+        <div class="row">
+            <label>Choose Amount To Invest:</label>
+            <div class="form-group">
+                <div id="slider-range"></div>
+            </div>
+        </div>
+        <div class="row slider-labels">
+            <div class="col-xs-6 caption">
+                <strong>Min:</strong> <span id="slider-range-value1"></span>
+            </div>
+            <div class="col-xs-6 text-right caption">
+                <strong>Max:</strong> <span id="slider-range-value2"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <form>
+                    <input type="hidden" name="min-value" value="">
+                    <input type="hidden" name="max-value" value="">
+                </form>
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Name:</label>
+            <input class="form-control" name="invester-name" required placeholder="Enter Name as per the PAN" />
+        </div>
+        <div class="form-group">
+            <label>PAN:</label>
+            <input class="form-control" required placeholder="please enter you PAN number" />
+
+        </div>
+        <div class="form-group">
+            <label>Mobile No:</label>
+            <input class="form-control" name="mobile-no" required placeholder="Enter your Mobile number" />
+        </div>
+        <div class="form-group">
+            <label>E-Mail:</label>
+            <input class="form-control" name="E-mail" required placeholder="Enter Your E-Mail Address" />
+        </div>
+        <div class="form-group">
+            <label>Password:</label>
+            <input class="form-control" name="password" type="password" />
+        </div>
+        <div class="form-group">
+            <button id="btninvestersignup" type="submit" class="btn btn-primary center-block" name="submit">Join Now</button>
+        </div>
+    </form>
+</div>
+
+<br />
+<br />
