@@ -229,6 +229,7 @@
     <Content Include="Content\ion.rangeSlider.min.css" />
     <Content Include="Content\noUiSlider\jquery.nouislider.css" />
     <Content Include="Images\avatar.png" />
+    <Content Include="Images\Investment.png" />
     <Content Include="Scripts\bar-chart.js" />
     <Content Include="Content\backend\js\bootstrap.min.js" />
     <Content Include="Scripts\bs-stepper.min.js" />
@@ -383,6 +384,7 @@
     <Content Include="Views\Admin\_LayoutBackEnd.cshtml" />
     <Content Include="Views\Admin\Dashboard.cshtml" />
     <Content Include="Views\Investor\BecomeInvestor.cshtml" />
+    <Content Include="Views\Investor\_LayoutFrontEnd.cshtml" />
     <Content Include="Views\Investor\Dashboard.cshtml" />
   </ItemGroup>
   <ItemGroup>

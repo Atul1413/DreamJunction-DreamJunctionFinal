@@ -4,16 +4,16 @@ Ion.RangeSlider, 2.3.1
 Build date: 2019-12-19 16:51:02
 */
 .irs {
-  position: relative;
-  display: block;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  font-size: 12px;
-  font-family: Arial, sans-serif;
+    position: relative;
+    display: block;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 12px;
+    font-family: Constantia;
 }
 .irs-line {
   position: relative;

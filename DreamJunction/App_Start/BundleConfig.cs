@@ -58,6 +58,7 @@ namespace DreamJunction
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/bs-stepper.min.js",
+                      "~/Scripts/ion.rangeSlider.min.js",
                       "~/Scripts/easing/easing.min.js",
                       "~/Scripts/mobile-nav.js",
                       "~/Scripts/wow.min.js",
@@ -83,7 +84,9 @@ namespace DreamJunction
                       "~/Content/ionicons/ionicons.min.css",
                       "~/Content/owlcarousel/assets/owl.carousel.min.css",
                       "~/Content/lightbox.min.css",
-                      "~/Content/noUiSlider/jquery.nouislider.css"));
+                      "~/Content/noUiSlider/jquery.nouislider.css",
+                      "~/Content/ion.rangeSlider.min.css"
+                      ));
         }
     }
 }
